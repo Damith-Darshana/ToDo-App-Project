@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="13dp"
+    app:cardBackgroundColor="@color/dark_blue"
+    android:foreground="?selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:weightSum="4">
+
+        <CheckBox
+            android:id="@+id/chekbox_id"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="3"
+            android:buttonTint="@color/white"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+
+
+
+            <ImageView
+                android:id="@+id/edit_icon_id"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/icon_edit"
+                tools:layout_editor_absoluteY="20dp" />
+
+            <ImageView
+                android:id="@+id/delete_icon_id"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/icon_delete"
+                tools:layout_editor_absoluteX="11dp"
+                tools:layout_editor_absoluteY="20dp" />
+
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>
