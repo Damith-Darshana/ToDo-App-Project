@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <menu>
+            <item
+                android:id="@+id/navigation_menu_profile"
+                android:icon="@drawable/icon_profile"
+                android:title="Profile"
+                />
+
+        </menu>
+
+
+    </item>
+
+
+    <item>
+
+        <menu>
+
+            <item
+                android:id="@+id/navigation_menu_aboutus"
+                android:icon="@drawable/icon_aboutus"
+                android:title="About us"/>
+
+
+        </menu>
+
+    </item>
+
+
+<item>
+    <menu>
+        <item
+            android:id="@+id/navigation_menu_logout"
+            android:icon="@drawable/icon_logout"
+            android:title="Log Out"/>
+
+
+    </menu>
+
+</item>
+
+
+
+
+
+</menu>
